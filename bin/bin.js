@@ -5,15 +5,12 @@ const chalk = require('chalk');
 const fs = require("fs");
 const path = require('path');
 
-
-
-
 const packageJson = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'package.json')).toString());
 
 program
   .command('fetch')
   .alias('f')
-  .description('Fetch a longscroll webpage (.htm, .html and .txt )')
+  .description('Fetch single markdown long-scroll (.md, .markdown or .txt )')
   .option('-f, --file <file_path>', 'Use path to file')
   .option('-u, --url <url>', 'Use url')
   .action(options => {
@@ -32,7 +29,7 @@ program
 program
   .command('sanitize')
   .alias('s')
-  .description('Sanitizes HTML')
+  .description('Sanitize your HTML inline with Bookiza requirements')
   .action(options => {
     const html = require(path.join('..', 'lib', 'sanitize.js'));
     html.sanitize(options)
