@@ -64,7 +64,7 @@ program
   .alias('p')
   .description('Pagination with formatting!')
   .action(() => {
-    const book = require(path.join('..', 'lib', 'pagy.js'));
+    const book = require(path.join('..', 'lib', 'pagify.js'));
     book.pagify()
   }).on('--help', () => {
     console.log('  Examples:');
