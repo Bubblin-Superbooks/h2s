@@ -1,12 +1,22 @@
 {
   "name": "markdown-to-superbook",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Convert Markdown e-book file to Superbook",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "markdown",
+    "superbook",
+    "converter"
+  ],
+  "bin": {
+    "m2s": "./bin/bin.js"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": "10.6.0"
+  },
   "author": "Marvin Danig <marvin@marvindanig.com> (http://marvindanig.com)",
   "license": "MIT",
   "dependencies": {
@@ -14,8 +24,6 @@
     "chalk": "2.4.2",
     "cheerio": "1.0.0-rc.2",
     "clean-html": "1.5.0",
-    "co": "4.6.0",
-    "co-prompt": "1.0.0",
     "commander": "2.19.0",
     "fs-extra": "7.0.1",
     "git-bookiza": "0.0.10",
