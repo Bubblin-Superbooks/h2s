@@ -1,7 +1,7 @@
 {
   "name": "markdown-to-superbook",
   "version": "1.0.0",
-  "description": "Convert Markdown e-book file to Superbook",
+  "description": "Convert a markdown (e-book) manuscript file into a superbook",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
