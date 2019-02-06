@@ -2,6 +2,10 @@
   "name": "markdown-to-superbook",
   "version": "1.0.0",
   "description": "Convert a markdown (e-book) manuscript file into a superbook",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bookiza/markdown-to-superbook.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
