@@ -1,7 +1,7 @@
 {
-  "name": "markdown-to-superbook",
-  "version": "1.0.0",
-  "description": "Convert a markdown (e-book) manuscript file into a superbook",
+  "name": "m2s",
+  "version": "1.0.1",
+  "description": "Convert markdown to Superbook (e-book for web)",
   "repository": {
     "type": "git",
     "url": "https://github.com/bookiza/markdown-to-superbook.git"
@@ -39,7 +39,6 @@
     "request-promise": "4.2.2",
     "sanitize-html": "1.20.0",
     "shelljs": "0.8.3",
-    "superagent": "4.1.0",
-    "wordcount": "1.1.1"
+    "superagent": "4.1.0"
   }
 }
