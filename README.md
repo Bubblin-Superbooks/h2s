@@ -11,7 +11,7 @@ Commands:
   fetch|f [options]  Fetch single markdown long-scroll (.md, .markdown or .txt )
   sanitize|s         Sanitize your HTML inline with Bookiza requirements
   objectify|o        Objectify into a Array-like Json
-  pagify|p           Pagination with formatting!
+  pagify|p           Pagination with line-tracking!
   bookify|b          Apply templates to form actual pages
 
 
