@@ -22,7 +22,7 @@
     "node": "10.6.0"
   },
   "author": "Marvin Danig <marvin@marvindanig.com> (http://marvindanig.com)",
-  "license": "MIT",
+  "license": "BOL",
   "dependencies": {
     "arc-bookiza": "0.0.13",
     "chalk": "2.4.2",
