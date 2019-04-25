@@ -22,7 +22,11 @@
   },
   {
     "tag": "p",
-    "innerHtml": "While the introduction will bear with the evidence concerning the date of the writing, and the commentaries written upon it, the chapters following the introduction will give a translation of the work itself. It is, however, advisable to furnish here a brief analysis of works of the same nature, prepared by authors who lived and wrote years after Vatsya had passed away, but who still considered him as a great authority, and always quoted him as the chief guide to Hindoo erotic literature."
+    "innerHtml": "While the introduction will bear with the evidence concerning the date of the writing, and the commentaries written upon it, the chapters following the introduction will give a translation of the work itself. It is, however, advisable to furnish here a brief analysis of works of the same."
+  },
+  {
+    "tag": "blockquote",
+    "innerHtml": "Nature, prepared by authors who lived and wrote years after Vatsya had passed away, but who still considered him as a great authority, and always quoted him as the chief guide to Hindoo erotic literature."
   },
   {
     "tag": "p",
