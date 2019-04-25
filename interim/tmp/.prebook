@@ -18,7 +18,7 @@
   },
   {
     "tag": "p",
-    "innerHtml": "In the literature of all countries there will be found a certain number of works treating especially of love. Everywhere the subject is dealt with differently, and from various points of view. In the present publication it is proposed to give a complete translation of what is considered the standard work on love in Sanscrit literature, and which is called the 'Vatsyayana Kama Sutra,' or Aphorisms on Love, by Vatsyayana."
+    "innerHtml": "In the <a href=\"http://google.com\">literature of all</a> countries there will <a href=\"http://google.com\">be found a certain</a> number of works treating especially of love. Everywhere the subject is dealt with differently, and from various points of view. In the present publication it is proposed to give a complete translation of what is considered the standard work on love in Sanscrit literature, and which is called the 'Vatsyayana Kama Sutra,' or Aphorisms on Love, by Vatsyayana."
   },
   {
     "tag": "p",
