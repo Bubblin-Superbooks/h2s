@@ -1,5 +1,5 @@
 {
-  "name": "m2s",
+  "name": "h2s",
   "version": "1.0.4",
   "description": "Convert markdown to Superbook (e-book for web)",
   "repository": {
@@ -15,8 +15,8 @@
     "converter"
   ],
   "bin": {
-    "m2s": "./bin/bin.js",
-    "m": "./bin/bin.js"
+    "h2s": "./bin/bin.js",
+    "h": "./bin/bin.js"
   },
   "preferGlobal": true,
   "engines": {
