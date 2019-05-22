@@ -1,6 +1,6 @@
 {
   "name": "m2s",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert markdown to Superbook (e-book for web)",
   "repository": {
     "type": "git",
@@ -15,7 +15,8 @@
     "converter"
   ],
   "bin": {
-    "m2s": "./bin/bin.js"
+    "m2s": "./bin/bin.js",
+    "m": "./bin/bin.js"
   },
   "preferGlobal": true,
   "engines": {

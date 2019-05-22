@@ -21,7 +21,7 @@ program
     console.log();
     console.log('    $ m2s objectify ');
     console.log('    $ m2s o ');
-    console.log(chalk.bold('    $ a o   #shortform'));
+    console.log(chalk.bold('    $ m o   #shortform'));
     console.log();
   });
 
@@ -35,7 +35,7 @@ program
   }).on('--help', () => {
     console.log('  Examples:');
     console.log('    $ m2s pagify');
-    console.log('    $ m2s p ');
+    console.log('    $ m p # short form');
     console.log(chalk.bold('$ tmp/.prebook must be ready for this command to work properly.' ));
     console.log();
   });
@@ -51,9 +51,9 @@ program
   }).on('--help', () => {
     console.log('  Examples:');
     console.log();
-    console.log('    $ m2s paginate ');
-    console.log('    $ m2s p ');
-    console.log(chalk.bold('    $ a p   #shortform'));
+    console.log('    $ m2s bookify ');
+    console.log('    $ m2s b ');
+    console.log(chalk.bold('    $ m b   #short form'));
     console.log();
   });
 
