@@ -12,7 +12,7 @@ const packageJson = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'packa
 program
   .command('objectify')
   .alias('o')
-  .description('Objectify into a Array-like Json')
+  .description('Objectify into a array-like json')
   .action(() => {
     const page = require(path.join('..', 'lib', 'objectify.js'));
     page.objectify();
