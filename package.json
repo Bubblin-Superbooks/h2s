@@ -1,6 +1,6 @@
 {
   "name": "h2s",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "Convert markdown to Superbook (e-book for web)",
   "repository": {
     "type": "git",
