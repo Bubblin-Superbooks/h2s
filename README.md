@@ -9,22 +9,13 @@
 </div>
 
 
-# H2S
+# Hydrogen Sulfide
 
-Usage: `$ h2s [options] [command]`
+Treat your pages with some sulfuric acid.
 
-Options:
-  -V, --version      output the version number
-  -v, --version      output the version number
-  -h, --help         output usage information
+----
 
-Commands:
-  1. $ h2s objectify|o        # Objectify into a Array-like Json
-  2. $ h2s pagify|p           # Paginate with gadda-gadda line-tracking!
-  3. $ h2s bookify|b          # Templatize markup with layout to form actual pages
-
-
-Installation:
+#### Installation
 
 ```
 $ npm i -g h2s
@@ -34,7 +25,25 @@ $ h2s --help 		# Vocabulary
 
 ```
 
-Steps:
+#### Usage
+
+
+`$ h2s [options] [command]`
+
+
+	Options:
+	  -V, --version      output the version number
+	  -v, --version      output the version number
+	  -h, --help         output usage information
+
+#### Commands
+
+	  1. $ h2s objectify|o        # Objectify into a Array-like Json
+	  2. $ h2s pagify|p           # Paginate with gadda-gadda line-tracking!
+	  3. $ h2s bookify|b          # Templatize markup with layout to form actual pages
+
+
+#### Steps and their meaning:
 
 1. Place `sanitized.html` at `./interim` folder (sibling to the `manuscript` folder at the root of your [Bookiza](https://bookiza.io) project). 
 
@@ -44,6 +53,6 @@ Steps:
 
 5. Run `$ h2s bookify` to apply layout on paginated content and produce book. And voila, your Superbook is ready!
 
-Run `$ bookiza server` to start server and test the book on `localhost:4567`
+Run `$ bookiza server` to load your book on development server at `localhost:4567`.
 
 
