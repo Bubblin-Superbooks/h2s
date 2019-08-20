@@ -1,3 +1,14 @@
+<div align="center">
+  <a href="https://bookiza.io">
+    <img src="h2s.jpg" alt="Tech Interview Handbook" width="400">
+  </a>
+  <br>
+  <h3>
+    <a href="https://bubblin.io/blog/h2s">Read the blogpost.</a>
+  </h3>
+</div>
+
+
 # H2S
 
 Usage: `$ h2s [options] [command]`
