@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://bookiza.io">
-    <img src="h2s.jpg" alt="Tech Interview Handbook" width="400">
+    <img src="art/h2s.jpg" alt="Tech Interview Handbook" width="400">
   </a>
   <br>
   <h3>
