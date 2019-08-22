@@ -11,7 +11,7 @@
 
 # Hydrogen Sulfide
 
-Treat your pages with some sulfuric acid.
+Pour some sulfuric acid on your really, really very, long HTML pages. Pagify the scroll into a responsive codex.
 
 ----
 
@@ -38,14 +38,14 @@ $ h2s --help 		# Vocabulary
 
 #### Commands
 
-	  1. $ h2s objectify|o        # Objectify into a Array-like Json
+	  1. $ h2s objectify|o        # Turn `sanitized.html` into an 'array like' JSON.
 	  2. $ h2s pagify|p           # Paginate with gadda-gadda line-tracking!
 	  3. $ h2s bookify|b          # Templatize markup with layout to form actual pages
 
 
 #### Steps and their meaning:
 
-1. Place `sanitized.html` at `./interim` folder (sibling to the `manuscript` folder at the root of your [Bookiza](https://bookiza.io) project). 
+1. Place your `sanitized.html` at `./interim` folder (sibling to the `manuscript` folder at the root of your [Bookiza](https://bookiza.io) project). 
 
 2. Execute `$ h2s objectify` to pull up the contents into a set of key: value pairs. 
 
