@@ -9,13 +9,15 @@
 </div>
 
 
-# Hydrogen Sulfide
+## Hydrogen Sulfide
 
-Pour some sulfuric acid on your really, really very, long HTML pages. Pagify the scroll into a responsive codex.
+Treat your really long HTML scroll with some sulfur. Paginate into a responsive codex with pages of equal size.
 
 ----
 
 #### Installation
+
+H2S is a CLI.
 
 ```
 $ npm i -g h2s
