@@ -13,7 +13,7 @@
 
 _Treat your really long HTML scroll with some sulfur!_ 
 
-Paginate content into responsive pages of equal size that always side above the fold.
+Surgical pagination of content into responsive pages of equal size that remain above the fold.
 
 ----
 
