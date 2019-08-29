@@ -11,7 +11,9 @@
 
 ## Hydrogen Sulfide
 
-Treat your really long HTML scroll with some sulfur. Paginate into a responsive codex with pages of equal size.
+_Treat your really long HTML scroll with some sulfur!_ 
+
+Paginate content into responsive pages of equal size that always side above the fold.
 
 ----
 
