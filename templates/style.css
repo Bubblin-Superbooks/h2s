@@ -22,9 +22,6 @@ h2,
 h3,
 h4 {
   margin: 2vw 0;
-  padding: 0;
-  padding: 0;
-  color: #444;
   width: 100%;
   text-align: center;
   font-weight: 100;
@@ -38,12 +35,17 @@ h4,
 h5,
 h6 {
   font-family: 'Berkshire Swash', cursive;
+  margin: 1vw 0;
+  padding: 0;
+  color: #444;
 }
 
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
   display:block;
+  margin: calc(1/2 * 4vw * 1.50) auto;
+
 }
 
 a {
@@ -235,7 +237,7 @@ hr::before {
   width: 85vw;
   max-height: calc(17 * (4vw * 1.5) + 4vw);
   break-after: right;
-  /*background: aliceblue; */ /* enable to see the maximum staging area */
+  background: aliceblue;  /* enable to see the maximum staging area */
 }
 
 .flex {
@@ -282,7 +284,7 @@ p.stretch-para {
 
 .center {
   text-align: center;
-  margin: 0 auto;
+  margin: inherit auto;
 }
 
 .small {
