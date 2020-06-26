@@ -1,6 +1,6 @@
 {
   "name": "h2s",
-  "version": "5.10.12",
+  "version": "6.0.0",
   "description": "Convert markdown to Superbook (e-book for web)",
   "repository": {
     "type": "git",
@@ -26,17 +26,17 @@
   "license": "BOL",
   "dependencies": {
     "arc-bookiza": "0.0.13",
-    "chalk": "2.4.2",
-    "cheerio": "1.0.0-rc.2",
+    "chalk": "4.1.0",
+    "cheerio": "1.0.0-rc.3",
     "clean-html": "1.5.0",
-    "commander": "3.0.1",
-    "fs-extra": "8.1.0",
+    "commander": "5.1.0",
+    "fs-extra": "9.0.1",
     "git-bookiza": "1.0.0",
-    "glob": "7.1.4",
+    "glob": "7.1.6",
     "natives": "1.1.6",
-    "puppeteer": "1.19.0",
-    "request": "2.88.0",
-    "request-promise": "4.2.4",
-    "shelljs": "0.8.3"
+    "puppeteer": "4.0.1",
+    "request": "2.88.2",
+    "request-promise": "4.2.5",
+    "shelljs": "0.8.4"
   }
 }

@@ -30,7 +30,6 @@ h5 {
 h5,
 h6 {
   line-height: calc(1 * 4vw * 1.50);
-
 }
 
 h1,
@@ -46,6 +45,29 @@ h6 {
   font-weight: 100;
 }
 
+h1 {
+  font-size: 8vw;
+}
+
+h2 {
+  font-size: 6vw;
+}
+
+h3 {
+  font-size: 5vw;
+}
+
+h4 {
+  font-size: 4vw;
+}
+
+h5 {
+  font-size: 4vw;
+}
+
+h6 {
+  font-size: 4vw;
+}
 
 img {
   border: 0;
@@ -79,18 +101,16 @@ p {
 
 p.start-chapter {
   text-indent: 0;
-  margin:  0 0 0;
-  margin: calc( 3 * 4 * (150vh *(1115/1443))/100 * 7/5) auto 0;
+  margin: calc(5 * 4vw * 1.50 - 2px) auto 0;
 }
 
 p.start-chapter:first-letter {
   display: inline-block;
   margin: 0 1vw 0 0;
   float: left;
-  font-size: calc( 3 * 4vw ); /* three times normal size */
+  font-size: calc(3 * 4vw); /* three times normal size */
   line-height: calc(2 * 4vw * 1.50 * 0.95);
   font-family: 'Berkshire Swash', cursive;
-  /* background: yellow; */     /* Test what looks good on your book */
 }
 
 
@@ -102,7 +122,6 @@ blockquote {
   margin: calc( 1/2 * (150vh *(1115/1443))/100 * 7/5) auto;
   margin: calc( 1/2 * 4vw * 1.50) 0;
   margin: 0 0;
-  /*background: #ffc; */
   display: inline-block;
   width: 100%;
 }
@@ -243,7 +262,7 @@ hr::before {
   max-height: calc(17 * (4vw * 1.5) + 4vw);
   break-after: right;
   display:inline-block;
-  /*background: aliceblue;*/  /* enable to see the maximum staging area */
+  /* background: aliceblue; */  /* enable to see the maximum staging area */
 }
 
 .flex {
