@@ -1,10 +1,12 @@
 #! /usr/bin/env node
 
-const program = require('commander')
 const chalk = require('chalk')
 const fs = require('fs')
 const path = require('path')
 
+const { Command } = require('commander')
+
+const program = new Command()
 
 const packageJson = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'package.json')).toString())
 
@@ -68,11 +70,10 @@ program
     console.log();
   });
 
-// Command version
+// Library version
 program
-  .version(packageJson.version)
-  .option('-v, --version', 'output the version number')
-  .parse(process.argv);
+  .version(packageJson.version, '-v, --VERSION', 'New version @bookiza')
+  .parse(process.argv)
 
 
 if (!program.args.length) {
