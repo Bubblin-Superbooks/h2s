@@ -20,23 +20,23 @@
   },
   "preferGlobal": true,
   "engines": {
-    "node": "10.6.0"
+    "node": "15.4.0"
   },
   "author": "Marvin Danig <marvin@marvindanig.com> (http://marvindanig.com)",
   "license": "BOL",
   "dependencies": {
-    "arc-bookiza": "0.0.13",
-    "chalk": "4.1.0",
-    "cheerio": "1.0.0-rc.3",
+    "arc-bookiza": "2.0.0",
+    "chalk": "5.2.0",
+    "cheerio": "1.0.0-rc.12",
     "clean-html": "1.5.0",
-    "commander": "6.0.0",
-    "fs-extra": "9.0.1",
-    "git-bookiza": "1.0.0",
-    "glob": "7.1.6",
+    "commander": "10.0.0",
+    "fs-extra": "11.1.0",
+    "git-bookiza": "^1.0.0",
+    "glob": "9.2.1",
     "natives": "1.1.6",
-    "puppeteer": "5.2.1",
+    "puppeteer": "19.7.2",
     "request": "2.88.2",
     "request-promise": "4.2.6",
-    "shelljs": "0.8.4"
+    "shelljs": "0.8.5"
   }
 }
