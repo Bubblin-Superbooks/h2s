@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://bookiza.io">
-    <img src="art/h2s.jpg" alt="Tech Interview Handbook" width="400">
+    <img src="art/h2s.jpg" alt="Tech Interview Handbook" width="200">
   </a>
   <br>
   <h3>
@@ -9,42 +9,40 @@
 </div>
 
 
-## Hydrogen Sulfide
+# Hydrogen Sulfide
 
-_Treat your really long HTML scroll with some sulfur!_ 
+Typeset and paginate long-form content into intrinsically scaling pages of a Superbook.
 
-Surgical pagination of content into responsive pages of equal size that remain above the fold.
+`h2s` is a Command Line Utility.
 
-----
 
-#### Installation
+## Installation
 
-H2S is a CLI.
+To install the CLI:
 
-```
+```nodejs
 $ npm i -g h2s
+```
 
+## Usage
+
+```nodejs
 $ h2s --help 		# Vocabulary
 
-
-```
-
-#### Usage
-
-
-`$ h2s [options] [command]`
-
-
-	Options:
+$ h2s [options] [command]
+	
+/*
+  Options:
 	  -V, --version      output the version number
 	  -v, --version      output the version number
 	  -h, --help         output usage information
+*/
+```
+## Functions
 
-#### Commands
-
-	  1. $ h2s objectify|o        # Turn `sanitized.html` into an 'array like' JSON.
-	  2. $ h2s pagify|p           # Paginate with gadda-gadda line-tracking!
-	  3. $ h2s bookify|b          # Templatize markup with layout to form actual pages
+	  1. $ h2s objectify|o        # Turns `sanitized.html` into a serialized array-like json. (Output: `interim/tmp/.prebook`)
+	  2. $ h2s pagify|p           # Paginates using `gadda-gadda` typesetting, line-tracking, and minimal leading+orphan/widow handling. (Output: `interim/tmp/.book`)
+	  3. $ h2s bookify|b          # Templatize markup with layout and content to form the pages of the book. 
 
 
 #### Steps and their meaning:
