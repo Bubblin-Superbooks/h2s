@@ -49,6 +49,7 @@ body {
 .inner {
   width: 85%;
   height: 85%;
+  background-color: aliceblue;
 }
 
 p {
