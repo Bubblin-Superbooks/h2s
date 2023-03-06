@@ -8,8 +8,8 @@ import { fileURLToPath } from 'url';
 import { Command } from 'commander';
 
 import objectifier from '../lib/objectify.js';
+import pagifier from '../lib/pagify.js';
 
-// import pagifier from '../lib/pagify.js';
 // import bookifier from '../lib/bookify.js';
 
 const program = new Command();
@@ -38,20 +38,20 @@ program
     console.log();
   });
 
-// program
-//   .command('pagify')
-//   .alias('p')
-//   .description('Pagination with formatting!')
-//   .action(() => {
-//     pagifier();
-//   })
-//   .on('--help', () => {
-//     console.log('  Examples:');
-//     console.log('    $ h2s pagify');
-//     console.log('    $ m p # short form');
-//     console.log(chalk.bold('$ tmp/.prebook must be ready for this command to work properly.'));
-//     console.log();
-//   });
+program
+  .command('pagify')
+  .alias('p')
+  .description('Pagination with formatting!')
+  .action(() => {
+    pagifier();
+  })
+  .on('--help', () => {
+    console.log('  Examples:');
+    console.log('    $ h2s pagify');
+    console.log('    $ m p # short form');
+    console.log(chalk.bold('$ tmp/.prebook must be ready for this command to work properly.'));
+    console.log();
+  });
 
 // program
 //   .command('bookify')
