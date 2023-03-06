@@ -9,8 +9,7 @@ import { Command } from 'commander';
 
 import objectifier from '../lib/objectify.js';
 import pagifier from '../lib/pagify.js';
-
-// import bookifier from '../lib/bookify.js';
+import bookifier from '../lib/bookify.js';
 
 const program = new Command();
 
@@ -34,7 +33,7 @@ program
     console.log();
     console.log('    $ h2s objectify ');
     console.log('    $ h2s o ');
-    console.log(chalk.bold('    $ m o   #shortform'));
+    console.log(chalk.bold('    $ h o   # shorter form'));
     console.log();
   });
 
@@ -48,26 +47,26 @@ program
   .on('--help', () => {
     console.log('  Examples:');
     console.log('    $ h2s pagify');
-    console.log('    $ m p # short form');
+    console.log('    $ h p # shorter form');
     console.log(chalk.bold('$ tmp/.prebook must be ready for this command to work properly.'));
     console.log();
   });
 
-// program
-//   .command('bookify')
-//   .alias('b')
-//   .description('Apply templates to form actual pages')
-//   .action(() => {
-//     bookifier();
-//   })
-//   .on('--help', () => {
-//     console.log('  Examples:');
-//     console.log();
-//     console.log('    $ h2s bookify ');
-//     console.log('    $ h2s b ');
-//     console.log(chalk.bold('    $ m b   #short form'));
-//     console.log();
-//   });
+program
+  .command('bookify')
+  .alias('b')
+  .description('Apply templates to form actual pages')
+  .action(() => {
+    bookifier();
+  })
+  .on('--help', () => {
+    console.log('  Examples:');
+    console.log();
+    console.log('    $ h2s bookify ');
+    console.log('    $ h2s b ');
+    console.log(chalk.bold('    $ h b  # shorter form'));
+    console.log();
+  });
 
 // Command catchall
 program
