@@ -34,6 +34,7 @@ body {
   font-variant: no-common-ligatures proportional-nums slashed-zero;
   font-kerning: normal;
   text-rendering: geometricPrecision;
+  overflow: hidden;
 
   font-family: "EB Garamond", serif;
   /* TODO: Feature => Apply Garamond font-family iff the template being used is NOVEL*/

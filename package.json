@@ -35,7 +35,7 @@
     "git-bookiza": "^1.0.0",
     "glob": "9.2.1",
     "natives": "1.1.6",
-    "puppeteer": "19.7.2",
+    "puppeteer": "19.7.4",
     "request": "2.88.2",
     "request-promise": "4.2.6",
     "shelljs": "0.8.5"
