@@ -24,7 +24,7 @@ const packageJson = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'packa
 program
   .command('objectify')
   .alias('o')
-  .description('Objectify into a array-like json')
+  .description('Objectify content into an array-like json')
   .action(() => {
     objectifier();
   })
@@ -40,7 +40,7 @@ program
 program
   .command('pagify')
   .alias('p')
-  .description('Pagination with formatting!')
+  .description('Pagination with gadda-gadda formatting!')
   .action(() => {
     pagifier();
   })
@@ -80,7 +80,7 @@ program
 
 // Library version
 program
-  .version(packageJson.version, '-v, --VERSION', 'New version @bookiza')
+  .version(packageJson.version, '-v, --VERSION', 'New version @h2s')
   .parse(process.argv);
 
 if (!program.args.length) {

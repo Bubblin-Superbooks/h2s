@@ -1,52 +1,52 @@
-body {
-  width: 96vw;
-  height: calc(100vh - 4vw);
-  border: 2vw solid #262626;
+.backface {
+  width: calc(100 * var(--vmin));
+  height: calc(100 * var(--vmax));
+  border: calc(2 * var(--vmin)) solid #262626;
   background-color: #474747;
-  -webkit-border-radius: 12px 3px 3px 12px;
-  border-radius: 12px 3px 3px 12px;
-  -webkit-box-shadow: -5px 5px 0 #585656 inset;
-  box-shadow: -5px 5px 0 #585656 inset;
+  border-radius: calc(1.5 * var(--vmin)) calc(0.3 * var(--vmin)) calc(0.3 * var(--vmin)) calc(1.5 * var(--vmin));
+  box-shadow: calc(-0.5 * var(--vmin)) calc(0.5 * var(--vmin)) 0 #585656 inset;
   position: relative;
 }
-
-body:before {
-  position: absolute;
-  top: 0;
-  left: 25px;
-  height: 100%;
-  width: 10px;
-  border-left: 5px solid #585656;
-  -webkit-box-shadow: -5px 5px 0 #262626 inset;
-  box-shadow: -5px 5px 0 #262626 inset;
-  content: " ";
-  display: block;
-}
-
-.title {
+.backface .closure {
   background-color: #eee;
   width: 100%;
-  border-top: 2vw solid #262626;
-  border-bottom: 2vw solid #262626;
-  height: 40vh;
-  top: 43vh;
+  border-top: calc(2 * var(--vmin)) solid #262626;
+  border-bottom: calc(2 * var(--vmin)) solid #262626;
+  line-height: 1.25;
+  height: calc(40 * var(--vmax));
+  top: calc(43 * var(--vmax));
   position: relative;
 }
-
-.title:before {
+.backface .closure:before {
   position: absolute;
   top: 0;
-  left: 25px;
+  right: calc(5 * var(--vmin));
   height: 100%;
-  width: 10px;
+  width: var(--vmin);
   background: #aaa;
-  border-left: 5px solid #585656;
-  -webkit-box-shadow: -5px 5px 0 #262626 inset;
-  box-shadow: -5px 5px 0 #262626 inset;
+  border-left: calc(0.5 * var(--vmin)) solid #585656;
+  box-shadow: calc(-0.5 * var(--vmin)) calc(0.5 * var(--vmin)) 0 #262626 inset;
   content: " ";
   display: block;
 }
-
-h1 {
-  color: hsla(358, 73%, 47%, 1);
+.backface .closure .closure-safe-region {
+  right: calc(2.5 * var(--vmin));
+  width: calc(91 * var(--vmin));
+  height: auto;
+  position: relative;
+}
+.backface .closure .closure-safe-region h1 {
+  font-size: calc(91 * var(--vmin) / 15);
+  color: black;
+}
+.backface:before {
+  position: absolute;
+  top: 0;
+  right: calc(5 * var(--vmin));
+  height: 100%;
+  width: calc(1 * var(--vmin));
+  border-left: calc(0.5 * var(--vmin)) solid #585656;
+  box-shadow: calc(-0.5 * var(--vmin)) calc(0.5 * var(--vmin)) 0 #262626 inset;
+  content: " ";
+  display: block;
 }
