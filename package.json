@@ -29,19 +29,19 @@
     "arc-bookiza": "2.0.0",
     "chalk": "5.2.0",
     "cheerio": "1.0.0-rc.12",
-    "clean-html": "1.5.0",
+    "clean-html": "2.0.1",
     "commander": "10.0.0",
     "fs-extra": "11.1.1",
     "git-bookiza": "^0.0.4",
-    "glob": "9.3.2",
+    "glob": "10.0.0",
     "natives": "1.1.6",
-    "puppeteer": "19.7.5",
-    "request": "0.0.1",
+    "puppeteer": "19.8.5",
+    "request": "2.88.2",
     "request-promise": "^0.0.1",
     "shelljs": "0.8.5"
   },
   "devDependencies": {
-    "eslint": "^8.36.0",
+    "eslint": "^8.38.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5"
   }
