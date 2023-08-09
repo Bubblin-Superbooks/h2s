@@ -1,3 +1,9 @@
+# DEPRECATED.
+
+THIS LIBRARY MIGHT STILL WORK FOR CERTAIN USE CASES, BUT IT ISN'T UP TO THE LATEST STANDARD OR BEING ACTIVELY DEVELOPED OR BEING MAINTAINED/SUPPORTED ANYMORE. USE AT YOUR OWN RISK. PLEASE DO NOT SUBMIT PRs. 
+
+---
+
 <div align="center">
   <a href="https://bookiza.io">
     <img src="art/h2s.jpg" alt="Tech Interview Handbook" width="200">
